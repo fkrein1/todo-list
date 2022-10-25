@@ -3,6 +3,7 @@ A simple to do application
 - Built with React, Typescript and Vite.
 - Styles with Sass and CSS Modules
 - Didn't use a state management library. Lots of prop drilling ;)
+</br>
 <a href="https://todo-list-blush-psi.vercel.app/">Demo on Vercel</a>
 </br>
 </br>
