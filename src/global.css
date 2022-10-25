@@ -10,12 +10,13 @@
   --purple-dark: #5e60ce;
   --blue: #4ea8de;
   --blue-dark: #1e6f9f;
+  --blue-darker: #145c87;
   --danger: #e25858;
 }
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--blue);
+  box-shadow: 0 0 0 1px var(--blue);
 }
 
 * {
