@@ -2,13 +2,14 @@ import { PlusCircle } from 'phosphor-react';
 import { ChangeEvent, FormEvent } from 'react';
 import styles from './styles.module.scss';
 
+
 interface InputTaskProps {
   task: string;
   onSetTask: (task: string) => void;
   onHandleSubmitNewTask: (event: FormEvent) => void;
 }
 
-export function InputTask(props: InputTaskProps) {
+export function Input(props: InputTaskProps) {
   function handleNewTaskChange(event: ChangeEvent<HTMLInputElement>) {
     props.onSetTask(event.target.value);
   }
